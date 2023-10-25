@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="./bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Shopping Cart3</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="container">
+    <h1>My Shopping Cart</h1>
+    <main>
+        <div class="d-flex flex-column">
+            <!--  --><!--  --><!--  --><!--  -->
+            <div class="card">
+                <div class="d-flex justify-content-start align-items-center">
+                    <img class="phone_img" src="./img/product-1.png">
+                    <p class="phone_name">iPhone 11 128GB Black</p>
+                </div>
+                <div class="d-flex justify-content-around align-items-center">
+                    <div class="d-flex justify-content-around align-items-center">
+                        <button id="decrease00">-</button>
+                        <input type="number" name="number-phone00" min="0" value="0" id="number-phone00">
+                        <button id="increase00">+</button>
+                    </div>
+                    <p class="price" id="price00">$0</p>
+                    <button class="remove" id="remove00"><img src="./img/remove.png"></button>
+                </div>
+            </div>
+            <!--  --><!--  --><!--  --><!--  -->
+            <div class="card">
+                <div class="d-flex justify-content-start align-items-center">
+                    <img class="phone_img" src="./img/product-2.png">
+                    <p class="phone_name">iPhone 11 Silicone Case - Black</p>
+                </div>
+                <div class="d-flex justify-content-around align-items-center">
+                    <div class="d-flex justify-content-around align-items-center">
+                        <button id="decrease01">-</button>
+                        <input type="number" name="number-phone01" min="0" value="0" id="number-phone01">
+                        <button id="increase01">+</button>
+                    </div>
+                    <p class="price" id="price01">$0</p>
+                    <button class="remove" id="remove01"><img src="./img/remove.png"></button>
+                </div>
+            </div>
+            <!--  --><!--  --><!--  --><!--  -->
+            <div class="card card1">
+                <div class="check">
+                    <p id="subtotal">Subtotal:</p>
+                    <p id="subtotal_value">$0.00</p>
+                </div>
+                <div class="check">
+                    <p id="tax">Tax:</p>
+                    <p id="tax_value">$0.00</p>
+                </div>
+                <div class="check">
+                    <p id="total">Total:</p>
+                    <p id="total_value">$0.00</p>
+                </div>
+                <div class="d-flex justify-content-around align-items-center">
+                    <button id="check_out">Check Out</button>
+                </div>
+            </div>
+            <!--  --><!--  --><!--  --><!--  -->
+        </div>
+    </main>
+
+    <script src="./jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="./popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="./bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
